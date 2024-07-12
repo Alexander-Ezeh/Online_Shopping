@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Input with Image</title>
+    <style>
+        .search-container {
+            position: relative;
+            width: 300px; /* Adjust as needed */
+        }
+        .search-input {
+            width: 100%;
+            padding: 10px 40px 10px 10px; /* Adjust padding to make space for the icon */
+            box-sizing: border-box;
+        }
+        .search-icon {
+            position: absolute;
+            top: 50%;
+            right: 10px; /* Adjust as needed */
+            transform: translateY(-50%);
+            width: 20px; /* Adjust size as needed */
+            height: 20px; /* Adjust size as needed */
+            pointer-events: none; /* Prevent the image from capturing clicks */
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="search" class="search-input" placeholder="Search here...">
+        <img src="/Images/Search bar.png" alt="Search" class="search-icon">
+    </div>
+</body>
+</html>

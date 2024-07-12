@@ -1,0 +1,89 @@
+.body{
+    background-color: rgba(228, 225, 225, 0.948);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.clr{
+    clear: both;
+}
+
+.header{
+    background-color: rgb(204, 206, 220);
+    margin: 20px;
+    padding: 20px;
+}
+
+#logo{
+    float: left;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-style: bold;
+    text-decoration: solid;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+#login{
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+#cart{
+    float: inline-end;
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+#search-container {
+    position: relative;
+    width: 90%;
+    padding-left: 40px;
+    
+}
+#search {
+    width: 100%;
+    padding: 10px 0px 10px 10px; 
+    box-sizing: border-box;
+    right: 30px;
+    border-radius: 10px;
+}
+#searchbar {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+    pointer-events: none; /* Prevent the image from capturing clicks */
+}
+.call{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-display: initial;
+    height: 20px;
+    background-size: contain;
+    border-radius: 5px;
+}
+
