@@ -11,6 +11,10 @@
     clear: both;
 }
 
+.image1 .text{
+    
+}
+
 .header{
     background-color: rgb(204, 206, 220);
     margin: 20px;
@@ -71,7 +75,7 @@
     pointer-events: none; /* Prevent the image from capturing clicks */
 }
 .call{
-    background-color: blue;
+    background-color: rgb(243, 149, 246);
     width: 100%;
     text-align: center;
     padding-top: 6px;
@@ -87,3 +91,83 @@
     border-radius: 5px;
 }
 
+#line1{
+    display: flex;
+    gap: 17.5px; /* Adjust gap between images */
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image1{
+    position: relative;
+    width: 220px; /* Adjust width as needed */
+    height: fit-content;
+    border: solid white 1px;
+    border-radius: 4px;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+
+.text{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: auto;
+    color: black;
+    font-weight: bold;
+}
+
+#line2{
+    display: flex;
+    gap: 17.5px; /* Adjust gap between images */
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image2{
+    position: relative;
+    width: 220px; /* Adjust width as needed */
+    height: fit-content;
+    border: solid white 1px;
+    border-radius: 4px;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+
+.playtowin{
+    background-color: rgb(243, 149, 246);
+    width: 100%;
+    text-align: center;
+    /* padding-top: 6px; */
+    padding-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-display: initial;
+    height: 30px;
+    background-size: contain;
+    border-radius: 5px;
+}
+line3{
+    display: flex;
+    gap: 10px; /* Adjust gap between images */
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image3{
+    position: relative;
+    width: 340px; /* Adjust width as needed
+    height: fit-content;
+    border: solid white 1px;
+    border-radius: 4px;  */
+    margin-top: 4px;
+    margin-left: 6px;
+    margin-right: 0.5px;
+    
+}
