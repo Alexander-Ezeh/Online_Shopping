@@ -169,5 +169,56 @@ line3{
     margin-top: 4px;
     margin-left: 6px;
     margin-right: 0.5px;
-    
+}
+
+.homeoffice{
+    background-color: rgb(243, 149, 246);
+    width: 100%;
+    text-align: center;
+    /* padding-top: 6px; */
+    padding-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-display: initial;
+    height: 30px;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.line4{
+    display: flex;
+    gap: 25px; /* Adjust gap between images */
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image4{
+    position: relative;
+    width: 260px; /* Adjust width as needed */
+    height: fit-content;
+    border: solid white 1px;
+    border-radius: 4px;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+
+#footer{
+    background-color: rgb(243, 149, 246);
+    width: 100%;
+    text-align: center;
+    /* padding-top: 6px; */
+    padding-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-display: initial;
+    height: 20px;
+    background-size: contain;
+    border-radius: 5px;
 }
