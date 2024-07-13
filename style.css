@@ -210,7 +210,8 @@ line3{
     background-color: rgb(0, 0, 0);
     width: 100%;
     text-align: center;
-    /* padding-top: 6px; */
+    color: #fff;
+    padding-top: 4px;
     padding-bottom: 6px;
     margin-left: 5px;
     margin-right: 5px;
@@ -218,7 +219,7 @@ line3{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-display: initial;
-    height: 20px;
+    height: 40px;
     background-size: contain;
     border-radius: 5px;
 }
